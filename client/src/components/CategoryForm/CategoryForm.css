@@ -1,0 +1,34 @@
+/* Container for the form to ensure it doesn't overflow the screen */
+.form-container {
+    max-height: 85vh; /* Limits height to 85% of the screen */
+    overflow-y: auto; /* Adds a scrollbar if content is too long */
+    background-color: #2c3335 !important; /* Matches your dark theme */
+    color: white;
+    border: 1px solid #333;
+}
+
+/* THE CRITICAL FIX: Constrain the image preview */
+.category-img-preview {
+    width: 100%;
+    max-height: 200px; /* Limits the height so it doesn't push the button off */
+    object-fit: contain; /* Keeps the image ratio without stretching */
+    border-radius: 8px;
+    background: #2c2c2c;
+    margin-bottom: 10px;
+    display: block;
+    cursor: pointer;
+}
+
+/* Make labels look better on dark theme */
+.form-label {
+    color: #ccc;
+    font-weight: 500;
+}
+
+/* Customizing the color picker size */
+input[type="color"] {
+    width: 50px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,27 @@
+### Java / Maven / Eclipse ###
+target/
+.project
+.classpath
+.settings/
+.factorypath
+.apt_generated/
+.apt_generated_tests/
+bin/
+*.class
+*.jar
+
+### Frontend (React in 'client' folder) ###
+# We add 'client/' prefix so Git knows where to look
+client/node_modules/
+client/dist/
+client/build/
+client/.eslintcache
+
+### Sensitive Info ###
+# Protects your database password
+src/main/resources/application.properties
+
+### IDE / System ###
+.idea/
+.vscode/
+.DS_Store

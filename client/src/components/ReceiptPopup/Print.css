@@ -1,0 +1,51 @@
+/* This only activates when the Print dialog opens */
+@media print {
+    /* Hide everything on the page first */
+    body * {
+        visibility: hidden;
+    }
+
+    /* Show only the receipt and its content */
+    .receipt-popup-overlay, 
+    .receipt-popup-overlay .receipt-popup, 
+    .receipt-popup-overlay .receipt-popup * {
+        visibility: visible;
+    }
+
+    /* Remove the grey background and centering for the printer */
+    .receipt-popup-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: none !important;
+        display: block !important;
+    }
+
+    /* Make the white box fill the paper width and remove shadows */
+    .receipt-popup {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 10px !important;
+        box-shadow: none !important;
+        border: none !important;
+    }
+
+    /* Expand the scrollable area so ALL items show on the paper */
+    .cart-items-scrollable {
+        max-height: none !important;
+        overflow: visible !important;
+    }
+
+    /* Hide the 'Print' and 'Close' buttons on the physical paper */
+    .btn-warning, .btn-danger, .d-flex.justify-content-end {
+        display: none !important;
+    }
+
+    /* Ensure colors (like the green success icon) show up */
+    * {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+}
