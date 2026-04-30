@@ -12,8 +12,8 @@ A full-stack web application for managing retail billing, inventory, and user ac
 
 ## 🎥 Project Demo
 
-https://github.com/9sharathsrao/retailBillingSoftware/assets/your-user-id/your-video-file.mp4
-
+ 
+ 
 > ☝️ Replace the above URL with your actual video file URL after uploading the MP4 to this repo.
 
 ---
