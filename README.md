@@ -76,9 +76,8 @@ Runs at `http://localhost:5173`
 
 ---
 
-## 👨‍💻 Author
+### 📡 Key API Endpoints
 
-**Sharath S** — [LinkedIn](https://www.linkedin.com/in/hey-rao/) · [GitHub](https://github.com/9sharathsrao)
 
 | Method | Endpoint | Description |
 |---|---|---|
