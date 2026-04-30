@@ -13,24 +13,25 @@ A full-stack web application for managing retail billing, inventory, and user ac
 ## 🎥 Project Demo
 
 *https://github.com/user-attachments/assets/780a151c-eef5-4d48-823f-f7d610852c70*
- 
- 
-> ☝️ Replace the above URL with your actual video file URL after uploading the MP4 to this repo.
 
 ---
 
 ## 📸 Screenshots
 
 ### Login
-![Login](screenshots/login.png)
+![Login](screenshots/Login_page.png)
 
+### Explore
+![Explore](screenshots/Explore_page.png)
+ 
 ### Items
-![Dashboard](screenshots/dashboard.png)
+![Items](screenshots/Managing_items.png)
 
 ### Category
-![Billing](screenshots/billing.png)
+![Category](screenshots/Managing_category.png)
 
 ### Payment
+![Payment](screenshots/RazorPay_Payment.png)
 
 ---
 
@@ -81,14 +82,14 @@ Runs at `http://localhost:5173`
 
 | Method | Endpoint | Description |
 |---|---|---|
-| POST | `/api/auth/login` | User login — returns JWT token |
-| GET | `/api/products` | Get all products |
-| POST | `/api/products` | Add a new product |
-| PUT | `/api/products/{id}` | Update product |
-| DELETE | `/api/products/{id}` | Delete a product |
-| GET | `/api/invoices` | Get all invoices |
-| POST | `/api/invoices` | Create a new invoice |
-| GET | `/api/inventory` | Get inventory status |
+| POST | `/api/v1.0/encode` | User login — returns JWT token |
+| GET | `/api/v1.0/items` | Get all products |
+| POST | `/api/v1.0/admin/items` | Add a new product |
+| GET | `/api/v1.0/categories` | Get all categories |
+| POST | `/api/v1.0/admin/categories` | Add a new categories |
+| GET | `/api/v1.0/dashboard` | Get Dashboard data |
+| DELETE | `/api/v1.0/admin/items/{id}` | Delete a product |
+| DELETE | `/api/v1.0/admin/categories/{cat_id}` | Delete a category |
 
 ---
 
