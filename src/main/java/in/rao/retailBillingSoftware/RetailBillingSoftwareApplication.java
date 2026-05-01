@@ -8,6 +8,5 @@ public class RetailBillingSoftwareApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(RetailBillingSoftwareApplication.class, args);
-	}
-	
+	}	
 }
