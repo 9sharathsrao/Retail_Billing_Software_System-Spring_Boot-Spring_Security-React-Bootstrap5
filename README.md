@@ -4,7 +4,10 @@ A full-stack web application for managing retail billing, inventory, and user ac
 
 ---
 
-## 🚀 Live Backend
+## 🚀 Live Demo
+**[Live App](https://retail-billing-software-system-spri.vercel.app)**
+
+## 🔗 Backend API
 **[API Base URL](https://retail-billing-backend-pl6j.onrender.com/api/v1.0)**
 
 ---
