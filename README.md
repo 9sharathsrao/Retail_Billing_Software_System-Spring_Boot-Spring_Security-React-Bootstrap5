@@ -4,8 +4,6 @@ A full-stack web application for managing retail billing, inventory, and user ac
 
 ---
 
-## 🚀 Live Demo
-
 ## 🚀 Live Backend
 **[API Base URL](https://retail-billing-backend-pl6j.onrender.com/api/v1.0)**
 
