@@ -1,7 +1,7 @@
 FROM maven:3.9.6-eclipse-temurin-17 AS build
 WORKDIR /app
 COPY . .
-RUN cp src/main/resources/application.properties.example src/main/resources/application.properties
+RUN cp src/main/resources/application.example.properties src/main/resources/application.properties
 RUN mvn clean package -DskipTests
 
 FROM eclipse-temurin:17-jre
